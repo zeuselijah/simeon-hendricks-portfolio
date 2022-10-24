@@ -8,16 +8,10 @@ const NavBar = () => {
         </a>
         <ul>
             <li className="active">
-                <a href="/about">About</a>
+                <a href="https://docs.google.com/document/d/1xoedXThmrS3Lq6ztOESpRa_QdBGVfjHWoYQg9Bs0pLU/edit" target="_blank" rel="noreferrer" >Resume</a>
             </li>
-            <li className="active">
-                <a href="https://docs.google.com/document/d/1xoedXThmrS3Lq6ztOESpRa_QdBGVfjHWoYQg9Bs0pLU/edit">Resume</a>
-            </li>
-            <li className="active">
-                <a href="/projects">Projects</a>
-            </li>
-            <li className="active">
-                <a href="/references">References</a>
+            <li className="active" smooth spy to="projects">
+                <a href="https://github.com/zeuselijah" target="_blank" rel="noreferrer" >Projects</a>
             </li>
         </ul>
     </nav>

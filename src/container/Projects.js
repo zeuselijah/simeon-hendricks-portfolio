@@ -4,9 +4,6 @@ import './css/Projects.css';
 const Projects = () => {
   return (
     <>
-    <br />
-    <br />
-    <br />
     <hr />
         <h1>Projects</h1>
     <div className="grid">
@@ -49,7 +46,9 @@ const Projects = () => {
         <img className="logos" alt='' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
         
         <img className="logos" alt='' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg" />
-                           
+        
+        <img className="logos" alt='' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                             
     </div>
     </>
   )
