@@ -1,0 +1,18 @@
+.gitHub {
+    width: 7%;
+}
+
+.linkedIn {
+    width: 7%;
+}
+
+.colz-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    background-color: #999;
+}

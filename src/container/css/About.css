@@ -1,0 +1,39 @@
+.gitHub {
+    width: 7%;
+    
+}
+
+.linkedIn {
+    width: 7%;
+}
+
+.headshot {
+    float: right;
+    border-radius: 50%;
+    height: 20rem;
+    margin-right: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    
+}
+
+.container {
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 7.5rem;
+    margin-right: 5%;
+}
+
+.colz-icon1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: start;
+    margin-top: -5%;
+    margin-right: 2%; 
+}
+
