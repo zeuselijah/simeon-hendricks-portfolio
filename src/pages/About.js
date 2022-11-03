@@ -1,12 +1,13 @@
 import React from 'react';
-import './css/About.css';
+import '../container/css/About.css';
 
 const About = () => {
   return (
+    <>
+    <h1>About</h1>
     <div className='about-container'>
         <div className='about-parent'>
             <div className='about-details'>
-                <img src="https://i.imgur.com/ALeN6rl.jpg" alt="" className="headshot" />
                 <div className="container">
                     <p>
                         Certified Scrum Master and Software Engineer, with 10+ years of experience in 
@@ -19,7 +20,9 @@ const About = () => {
                 </div>
             </div>
         </div>
-    </div>  
+    </div> 
+    </>
+ 
     
   )
 }

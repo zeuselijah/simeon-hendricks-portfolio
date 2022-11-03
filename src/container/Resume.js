@@ -1,21 +1,21 @@
-import React from 'react';
-import './css/Resume.css';
+// import React from 'react';
+// import './css/Resume.css';
 
 
-const Resume = () => {
+// const Resume = () => {
     
-    return (
-        <>
-            <div className='container'>
-                <a href="Resume.pdf" download="Resume.pdf">
-                    <button className='btn'><h1>Resume</h1></button>
+//     return (
+//         <>
+//             <div className='container'>
+//                 <a href="Resume.pdf" download="Resume.pdf">
+//                     <button className='btn'><h1>Resume</h1></button>
                 
-                </a>
-                <div className='pic'>
+//                 </a>
+//                 <div className='pic'>
                
-                </div> 
-            </div>
-        </>   
+//                 </div> 
+//             </div>
+//         </>   
        
 
             
@@ -23,6 +23,6 @@ const Resume = () => {
             
         
       
-    )
-}
-export default Resume;
+//     )
+// }
+// export default Resume;

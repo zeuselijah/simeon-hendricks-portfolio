@@ -1,10 +1,9 @@
 import React from 'react';
-import './css/Projects.css';
+import '../container/css/Projects.css';
 
 const Projects = () => {
   return (
     <>
-    <hr />
         <h1>Projects</h1>
     <div className="grid">
         <a href="https://doctors-portal-p4.herokuapp.com/" target="_blank" rel="noreferrer">

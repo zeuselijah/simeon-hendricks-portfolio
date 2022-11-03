@@ -1,11 +1,11 @@
 import React from 'react';
-import './css/Skills.css';
+import '../container/css/Skills.css';
 
 const Skills = () => {
   return (
     <>
-    <hr />
         <h1>Skills</h1>
+    
 
     <div>
         <img className="logos" alt='' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />

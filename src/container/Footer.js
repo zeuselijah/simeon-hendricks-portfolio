@@ -4,9 +4,7 @@ import './css/Footer.css';
 const Footer = () => {
   return (
     <>
-    <br />
-    <br />
-    <hr />
+    
     <h5 className='connect'><span>Connect Here:</span></h5>
     <div className='about-container'>
         <div className='about-parent'>

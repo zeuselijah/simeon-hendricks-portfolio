@@ -4,7 +4,7 @@ import Projects from './pages/Projects';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
-import Main from './container/Main';
+// import Main from './container/Main';
 import './App.scss';
 
 function App() {
@@ -28,7 +28,6 @@ function App() {
     <div className="App">
       <NavBar />
       {component}
-      <Main />
       <Footer />
     </div>
   );
