@@ -2,8 +2,15 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
+}
+
+.App {
+    margin: 0 auto;
+    min-width: 480px;
+    max-width: 1020px;
 }
 
 .nav {
@@ -14,6 +21,7 @@ body {
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    width: 100%;
 }
 
 .site-title {
@@ -25,7 +33,8 @@ body {
    margin: 0;
    list-style: none;
    display: flex;
-   gap: 1rem; 
+   gap: 1rem;
+   
 }
 
 .nav a {
@@ -37,10 +46,11 @@ body {
     padding: .25rem;
 }
 
-// .nav li.active {
-//     background-color: #555;
-// }
+.nav li.active {
+     background-color: #555;
+}
 
 .nav li.hover {
     background-color: #777;
 }
+

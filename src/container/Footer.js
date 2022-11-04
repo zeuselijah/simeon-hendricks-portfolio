@@ -4,13 +4,11 @@ import './css/Footer.css';
 const Footer = () => {
   return (
     <>
-    <br />
-    <br />
-    <hr />
+    
+    <div className='footer-container'>
     <h5 className='connect'><span>Connect Here:</span></h5>
-    <div className='about-container'>
-        <div className='about-parent'>
-            <div className='about-details'>
+        <div className='footer-parent'>
+            <div className='footer-details'>
                 <div className='colz'>
                 <div className="colz-icon">
                         <div className="gitHub">

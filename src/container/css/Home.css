@@ -1,0 +1,35 @@
+/* .headshot {
+    border-radius: 50%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+} */
+
+.headshot {
+    float: right;
+    border-radius: 50%;
+    height: 25rem;
+    margin-right: 25px;
+    margin-top: -5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    
+}
+
+.list {
+    font-size: 1.7rem;
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+
+@media screen and (max-width: 768) {
+    .list{
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+

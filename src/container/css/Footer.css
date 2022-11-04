@@ -1,20 +1,44 @@
-.gitHub {
-    width: 7%;
-}
-
-.linkedIn {
-    width: 7%;
-}
-
-
 .connect {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 2rem;
+    margin-bottom: 5px;
+    width: 100%;
 }
+.footer-container {
+   /* display: flex;
+   justify-content: stretch;
+   align-items: center; */
+   width: 100%;
+   position: absolute;
+   bottom: 0; 
+}
+
+.footer-parent{
+width: 100%;
+
+}
+
+
+
+.gitHub {
+    width: 10%;
+    
+}
+
+.linkedIn {
+    width: 10%;
+}
+
 
 .colz-icon {
     display: flex;
     justify-content: center;
+    align-content: space-between;  
     margin: 0 auto;
+}
+
+.colz-icon div {
+    padding: 6px;
 }
