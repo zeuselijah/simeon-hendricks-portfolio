@@ -5,12 +5,14 @@
 
 body {
     margin: 0;
+    height: 100%;
 }
 
 .App {
     margin: 0 auto;
     min-width: 480px;
     max-width: 1020px;
+    min-height: 750px;
 }
 
 .nav {
